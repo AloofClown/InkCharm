@@ -8,4 +8,6 @@
     <color name="Activity_Login_EditText_Style_WHITE">#FFFFFF</color>
     <color name="Activity_Login_LinearLayout_Style_WHITE">#FFFFFF</color>
     <color name="Activity_Login_LinearLayout_Style_BLACK">#000000</color>
+    <!--InkCharm Borwse Article-->
+    <color name="InkCharm_Borwse_Article_Button_BLUE">#00EEEE</color>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#65B0C4DE" />
+
+    <stroke
+        android:width="@dimen/Activity_Login_Style_Stroke_Width"
+        android:color="#99B0C4DE"/>
+    <corners
+        android:bottomLeftRadius="@dimen/Activity_Login_Style_LinearLayout_Black_Corners_Radius"
+        android:bottomRightRadius="@dimen/Activity_Login_Style_LinearLayout_Black_Corners_Radius"
+        android:topLeftRadius="@dimen/Activity_Login_Style_LinearLayout_Black_Corners_Radius"
+        android:topRightRadius="@dimen/Activity_Login_Style_LinearLayout_Black_Corners_Radius"/>
+
+</shape>
