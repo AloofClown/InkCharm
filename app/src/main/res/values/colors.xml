@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Main_Color_Style_GREY">#B3B3B3</color>
+    <color name="Main_Color_Style_BLUE">#BCD2EE</color>
+    <color name="Activity_Login_AppName_BLACK">#000000</color>
+    <!--Activity Login Style-->
+    <color name="Activity_Login_Button_Style_BLUE">#68838B</color>
+    <color name="Activity_Login_EditText_Style_WHITE">#FFFFFF</color>
+    <color name="Activity_Login_LinearLayout_Style_WHITE">#FFFFFF</color>
+    <color name="Activity_Login_LinearLayout_Style_BLACK">#000000</color>
+</resources>

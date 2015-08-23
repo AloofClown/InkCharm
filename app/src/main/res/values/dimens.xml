@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--Activity Login-->
+    <dimen name="Activity_Login_AppName_size">40dp</dimen>
+    <dimen name="Activity_Login_Text_size">18dp</dimen>
+    <dimen name="Activity_Login_LinearLayout_margin_LEFT_RIGHT">40dp</dimen>
+    <dimen name="Activity_Login_LinearLayout_height">40dp</dimen>
+    <dimen name="Activity_Login_LinearLayout_to_AppName_margin_Top">64dp</dimen>
+    <dimen name="Activity_Login_LinearLayout_margin_Top">32dp</dimen>
+    <dimen name="Activity_Login_LinearLayout_margin_Left_Right">16dp</dimen>
+    <dimen name="Activity_Login_EditText_to_EditText_margin_Top">16dp</dimen>
+    <dimen name="Activity_Login_LinearLayout_Button">32dp</dimen>
+    <dimen name="Activity_Login_LinearLayout_Button_margin_Top_Bottom">24dp</dimen>
+    <dimen name="Activity_Login_Button_padding_Left_Rightm">32dp</dimen>
+    <!--Activity Login Style-->
+    <dimen name="Activity_Login_Style_Stroke_Width">0.1dp</dimen>
+    <dimen name="Activity_Login_Style_Button_Corners_Radius">8dp</dimen>
+    <dimen name="Activity_Login_Style_EditText_Corners_Radius">16dp</dimen>
+    <dimen name="Activity_Login_Style_LinearLayout_Corners_Radius">8dp</dimen>
+    <dimen name="Activity_Login_Style_LinearLayout_Black_Corners_Radius">16dp</dimen>
+</resources>

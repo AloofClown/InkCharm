@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/Main_Color_Style_GREY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/Main_Color_Style_BLUE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/Activity_Login_AppName_size"
+                android:textColor="@color/Activity_Login_AppName_BLACK"
+                android:text="@string/app_name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/Activity_Login_LinearLayout_to_AppName_margin_Top"
+            android:background="@drawable/activity_login_round_corner_linearlayout_black"
+            android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_LEFT_RIGHT"
+            android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_LEFT_RIGHT"
+            android:alpha="0.5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Activity_Login_LinearLayout_height"
+              android:layout_marginTop="@dimen/Activity_Login_LinearLayout_margin_Top"
+              android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+              android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+              android:background="@drawable/activity_login_round_corner_linearlayout"
+              android:gravity="center"
+              android:orientation="horizontal">
+              <EditText
+                  android:id="@+id/ET_activity_login_username"
+                  android:maxLines="1"
+                  android:maxLength="20"
+                  android:digits="@string/Activity_Login_inputtype"
+                  android:numeric="integer"
+                  android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+                  android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+                  android:background="@drawable/activity_login_round_corner_edittext"
+                  android:hint="@string/Activity_Login_username"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+                android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+                android:maxLength="10"
+                android:background="@drawable/activity_login_round_corner_linearlayout"
+                android:layout_marginTop="@dimen/Activity_Login_EditText_to_EditText_margin_Top"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Activity_Login_LinearLayout_height">
+                <EditText
+                    android:id="@+id/ET_activity_login_password"
+                    android:digits="@string/Activity_Login_inputtype"
+                    android:inputType="textPassword"
+                    android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+                    android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+                    android:maxLines="1"
+                    android:maxLength="20"
+                    android:background="@drawable/activity_login_round_corner_edittext"
+                    android:hint="@string/Activity_Login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Activity_Login_LinearLayout_Button"
+                android:layout_marginTop="@dimen/Activity_Login_LinearLayout_Button_margin_Top_Bottom"
+                android:layout_marginBottom="@dimen/Activity_Login_LinearLayout_Button_margin_Top_Bottom"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <Button
+                        android:id="@+id/BT_activity_login_login"
+                        android:background="@drawable/activity_login_round_corner_button"
+                        android:layout_width="wrap_content"
+                        android:text="@string/Activity_Login_login"
+                        android:paddingLeft="@dimen/Activity_Login_Button_padding_Left_Rightm"
+                        android:textSize="@dimen/Activity_Login_Text_size"
+                        android:paddingRight="@dimen/Activity_Login_Button_padding_Left_Rightm"
+                        android:layout_height="match_parent" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <Button
+                        android:id="@+id/BT_activity_login_register"
+                        android:paddingLeft="@dimen/Activity_Login_Button_padding_Left_Rightm"
+                        android:paddingRight="@dimen/Activity_Login_Button_padding_Left_Rightm"
+                        android:textSize="@dimen/Activity_Login_Text_size"
+                        android:text="@string/Activity_Login_register"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/activity_login_round_corner_button"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+</FrameLayout>

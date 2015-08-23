@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--设置背景色-->
+    <solid android:color="@color/Activity_Login_Button_Style_BLUE" />
+    <!--设置边线色-->
+    <stroke
+        android:width="@dimen/Activity_Login_Style_Stroke_Width"
+        android:color="@color/Activity_Login_Button_Style_BLUE"/>
+    <!--设置圆角度数-->
+    <corners
+        android:bottomLeftRadius="@dimen/Activity_Login_Style_Button_Corners_Radius"
+        android:bottomRightRadius="@dimen/Activity_Login_Style_Button_Corners_Radius"
+        android:topLeftRadius="@dimen/Activity_Login_Style_Button_Corners_Radius"
+        android:topRightRadius="@dimen/Activity_Login_Style_Button_Corners_Radius"/>
+
+</shape>
