@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/layout_inkcharm_borwse_article_item_linearlayout"
     android:layout_height="match_parent">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="一叶落可知天下秋"
-            android:textSize="20dp"/>
-        <TextView
-            android:layout_marginTop="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/InkCharm_Browse_Article_ArticleContent"
-            android:lines="3"
-            android:textSize="20dp"/>
+        android:layout_height="match_parent">
         <LinearLayout
+            android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:gravity="right"
             android:layout_height="wrap_content">
-            <LinearLayout
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/layout_inkcharm_my_article_mycollect_item_ArticleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一叶落知天下秋"
+                android:textSize="16sp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/layout_inkcharm_my_article_mycollect_item_ArticleContent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="20dp"
-                        android:text="转载人数："/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="3"
+                android:ellipsize="end"
+                android:textSize="14sp"
+                android:text="@string/InkCharm_Browse_Article_ArticleContent"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="20dp">
                 <TextView
+                    android:textColor="#000000"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="12"
-                    android:textSize="20dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="收藏人数："
-                        android:textSize="20dp"/>
+                    android:text="作者:"
+                    android:textSize="16sp"/>
                 <TextView
+                    android:textColor="#000000"
+                    android:id="@+id/layout_inkcharm_my_article_mycollect_item_AuthorName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="102"
-                    android:textSize="20dp"/>
-                    </LinearLayout>
+                    android:textSize="16sp"
+                    android:layout_marginLeft="8dp"
+                    android:text="孤箫残月"/>
                 </LinearLayout>
-            </LinearLayout>
-    </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
 </LinearLayout>

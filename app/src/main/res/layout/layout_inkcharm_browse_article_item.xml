@@ -46,12 +46,15 @@
                 android:textSize="16dp"
                 android:text="一叶落可知秋至"/>
             <TextView
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:textColor="#000000"
                 android:id="@+id/TV_layout_inkcharm_browse_article_ArticleContent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:maxLines="3"
                 android:lines="3"
+                android:ellipsize="end"
                 android:text="        意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。"/>
         </LinearLayout>
         <LinearLayout

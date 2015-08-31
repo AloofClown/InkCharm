@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/layout_inkcharm_borwse_article_item_linearlayout"
     android:layout_height="match_parent">
-
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/layout_inkcharm_my_article_myarticle_item_ArticleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一叶落可知天下秋"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/layout_inkcharm_my_article_myarticle_item_ArticleContent"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/InkCharm_Browse_Article_ArticleContent"
+            android:lines="3"
+            android:ellipsize = "end"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:text="转载人数："/>
+                    <TextView
+                        android:id="@+id/layout_inkcharm_my_article_myarticle_item_ReprintNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12"
+                        android:textColor="#000000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="收藏人数："
+                        android:textColor="#000000"
+                        android:textSize="12sp"/>
+                    <TextView
+                        android:id="@+id/layout_inkcharm_my_article_myarticle_item_CollectNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="102"
+                        android:textColor="#000000"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
