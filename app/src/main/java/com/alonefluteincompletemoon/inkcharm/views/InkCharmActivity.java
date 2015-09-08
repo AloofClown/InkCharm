@@ -32,6 +32,10 @@ public class InkCharmActivity extends Activity {
     ListView LV_activity_inkcharm_my_article_myarticle_list, LV_activity_inkcharm_my_article_mycollect_list, LV_activity_inkcharm_my_article_myfriends_list;
     LinearLayout LL_activity_inkcharm_browse_article, LL_activity_inkcharm_my_article, LL_activity_inkcharm_setting;
     ViewFlipper VF_activity_inkcharm_my_article;
+    Button BT_activity_inkcharm_setting_nightstyle_open, BT_activity_inkcharm_setting_nightstyle_close, BT_activity_inkcharm_setting_receivenews_open;
+    Button BT_activity_inkcharm_setting_receivenews_close, BT_activity_inkcharm_setting_receivenews_voice_open, BT_activity_inkcharm_setting_receivenews_voice_close;
+    Button BT_activity_inkcharm_setting_receivenews_shock_open, BT_activity_inkcharm_setting_receivenews_shock_close, BT_activity_inkcharm_setting_playnews_speaker_open, BT_activity_inkcharm_setting_playnews_speaker_close;
+    LinearLayout LL_activity_inkcharm_setting_receivenews_voice, LL_activity_inkcharm_setting_receivenews_shock;
     List<InkCharm_Browse_Article_Item_Bean> IBAI_Bean_Data = new ArrayList<InkCharm_Browse_Article_Item_Bean>();
     List<InkCharm_My_Article_MyArticle_List_Item_Bean> IMAMALI_Bean_Data = new ArrayList<InkCharm_My_Article_MyArticle_List_Item_Bean>();
     List<InkCharm_My_Article_MyCollect_List_Item_Bean> IMAMCLI_Bean_Data = new ArrayList<InkCharm_My_Article_MyCollect_List_Item_Bean>();
@@ -64,6 +68,20 @@ public class InkCharmActivity extends Activity {
         LV_activity_inkcharm_browse_article = (ListView) findViewById(R.id.LV_activity_inkcharm_browse_article);
 
         VF_activity_inkcharm_my_article = (ViewFlipper) findViewById(R.id.VF_activity_inkcharm_my_article);
+
+        BT_activity_inkcharm_setting_nightstyle_open = (Button) findViewById(R.id.BT_activity_inkcharm_setting_nightstyle_open);
+        BT_activity_inkcharm_setting_nightstyle_close = (Button) findViewById(R.id.BT_activity_inkcharm_setting_nightstyle_close);
+        BT_activity_inkcharm_setting_receivenews_open = (Button) findViewById(R.id.BT_activity_inkcharm_setting_receivenews_open);
+        BT_activity_inkcharm_setting_receivenews_close = (Button) findViewById(R.id.BT_activity_inkcharm_setting_receivenews_close);
+        BT_activity_inkcharm_setting_receivenews_voice_open = (Button) findViewById(R.id.BT_activity_inkcharm_setting_receivenews_voice_open);
+        BT_activity_inkcharm_setting_receivenews_voice_close = (Button) findViewById(R.id.BT_activity_inkcharm_setting_receivenews_voice_close);
+        BT_activity_inkcharm_setting_receivenews_shock_open = (Button) findViewById(R.id.BT_activity_inkcharm_setting_receivenews_shock_open);
+        BT_activity_inkcharm_setting_receivenews_shock_close = (Button) findViewById(R.id.BT_activity_inkcharm_setting_receivenews_shock_close);
+        BT_activity_inkcharm_setting_playnews_speaker_open = (Button) findViewById(R.id.BT_activity_inkcharm_setting_playnews_speaker_open);
+        BT_activity_inkcharm_setting_playnews_speaker_close = (Button) findViewById(R.id.BT_activity_inkcharm_setting_playnews_speaker_close);
+
+        LL_activity_inkcharm_setting_receivenews_voice = (LinearLayout) findViewById(R.id.LL_activity_inkcharm_setting_receivenews_voice);
+        LL_activity_inkcharm_setting_receivenews_shock = (LinearLayout) findViewById(R.id.LL_activity_inkcharm_setting_receivenews_shock);
 
         BT_activity_inkcharm_browse_article.setEnabled(true);
         BT_activity_inkcharm_browse_article.setOnClickListener(new View.OnClickListener() {
@@ -120,6 +138,80 @@ public class InkCharmActivity extends Activity {
                         break;
                 }
                 return true;
+            }
+        });
+        BT_activity_inkcharm_setting_nightstyle_open.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_nightstyle_close.setVisibility(View.VISIBLE);
+                BT_activity_inkcharm_setting_nightstyle_open.setVisibility(View.GONE);
+            }
+        });
+        BT_activity_inkcharm_setting_nightstyle_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_nightstyle_close.setVisibility(View.GONE);
+                BT_activity_inkcharm_setting_nightstyle_open.setVisibility(View.VISIBLE);
+            }
+        });
+        BT_activity_inkcharm_setting_receivenews_open.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_receivenews_open.setVisibility(View.GONE);
+                BT_activity_inkcharm_setting_receivenews_close.setVisibility(View.VISIBLE);
+                LL_activity_inkcharm_setting_receivenews_voice.setVisibility(View.GONE);
+                LL_activity_inkcharm_setting_receivenews_shock.setVisibility(View.GONE);
+            }
+        });
+        BT_activity_inkcharm_setting_receivenews_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_receivenews_open.setVisibility(View.VISIBLE);
+                BT_activity_inkcharm_setting_receivenews_close.setVisibility(View.GONE);
+                LL_activity_inkcharm_setting_receivenews_voice.setVisibility(View.VISIBLE);
+                LL_activity_inkcharm_setting_receivenews_shock.setVisibility(View.VISIBLE);
+            }
+        });
+        BT_activity_inkcharm_setting_receivenews_voice_open.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_receivenews_voice_open.setVisibility(View.GONE);
+                BT_activity_inkcharm_setting_receivenews_voice_close.setVisibility(View.VISIBLE);
+            }
+        });
+        BT_activity_inkcharm_setting_receivenews_voice_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_receivenews_voice_open.setVisibility(View.VISIBLE);
+                BT_activity_inkcharm_setting_receivenews_voice_close.setVisibility(View.GONE);
+            }
+        });
+        BT_activity_inkcharm_setting_receivenews_shock_open.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_receivenews_shock_open.setVisibility(View.GONE);
+                BT_activity_inkcharm_setting_receivenews_shock_close.setVisibility(View.VISIBLE);
+            }
+        });
+        BT_activity_inkcharm_setting_receivenews_shock_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_receivenews_shock_open.setVisibility(View.VISIBLE);
+                BT_activity_inkcharm_setting_receivenews_shock_close.setVisibility(View.GONE);
+            }
+        });
+        BT_activity_inkcharm_setting_playnews_speaker_open.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_playnews_speaker_open.setVisibility(View.GONE);
+                BT_activity_inkcharm_setting_playnews_speaker_close.setVisibility(View.VISIBLE);
+            }
+        });
+        BT_activity_inkcharm_setting_playnews_speaker_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BT_activity_inkcharm_setting_playnews_speaker_open.setVisibility(View.VISIBLE);
+                BT_activity_inkcharm_setting_playnews_speaker_close.setVisibility(View.GONE);
             }
         });
         LV_activity_inkcharm_browse_article.setAdapter(new CommonAdapter<InkCharm_Browse_Article_Item_Bean>(getApplicationContext(), IBAI_Bean_Data, R.layout.layout_inkcharm_browse_article_item) {
