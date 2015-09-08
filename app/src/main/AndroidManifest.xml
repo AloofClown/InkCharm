@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alonefluteincompletemoon.inkcharm" >
+    package="com.alonefluteincompletemoon.inkcharm">
+
+    <uses-sdk
+        android:maxSdkVersion="22"
+        android:minSdkVersion="15" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".views.LoginActivity"
             android:label="@string/app_name"
-            android:windowSoftInputMode="adjustResize">
-        </activity>
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity
             android:name=".views.InkCharmActivity"
             android:label="@string/app_name">
@@ -20,6 +23,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".views.InkCharm_Borwse_Article_Activity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".views.InkCharm_Borwse_Article_CommentArticle_Activity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!--InkCharm-->
     <string name="app_name">InkCharm</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -13,8 +13,42 @@
     <!--Activity Login Toast-->
     <string name="Activity_Login_username_cannot_empty">账号不能为空</string>
     <string name="Activity_Login_password_cannot_empty">密码不能为空</string>
+    <string name="drop_down_list_header_default_text">Click to refresh…</string>
+    <!--DropDownListView-->
+    <string name="drop_down_list_header_pull_text">Drop Down to refresh…</string>
+    <string name="drop_down_list_header_release_text">Release to refresh…</string>
+    <string name="drop_down_list_header_loading_text">Loading…</string>
+    <string name="drop_down_list_footer_default_text">More</string>
+    <string name="drop_down_list_footer_loading_text">Loading…</string>
+    <string name="drop_down_list_footer_no_more_text">No More</string>
+    <string name="image_content">Image</string>
     <!--InkCharm Browse Article Test-->
-    <string name="InkCharm_Browse_Article_Test_username">孤箫残月</string>
-    <string name="InkCharm_Browse_Article_ArticleName">一叶落知天下秋</string>
-    <string name="InkCharm_Browse_Article_ArticleContent">        意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。</string>
+    <string name="InkCharm_Browse_Article_Test_UserName">孤箫残月</string>
+    <string name="InkCharm_Browse_Article_Test_UserWord">遗忘，是小丑的使命。</string>
+    <string name="InkCharm_Browse_Article_Test_ArticleName">一叶落知天下秋</string>
+    <string name="InkCharm_Browse_Article_Test_ArticleContent">       仅存的记忆渐渐被时光蚕食，仃伶不堪。过山过水后，回望江南，伊人何在？
+       这年夏，谨此记录，以兹留念。
+               ——木木
+
+       1.追忆，只是……我们再也回不到过去
+
+       一晃又是一年夏，真的过的好快，还来不及听时间流逝。像摩天轮飞快的旋转却终究不能脱离既定轨道一般我也终究不能脱离，我永无休止的寻找，寻找属于自己的幸福，哪怕根本看不见。
+       如今的我，喜欢一个人沿着公路看着自己脚尖一直走走到筋疲力尽，然后停下来四处张望，看阳光灼痛心房直到疼的快要死去，就像人生旅程般疼痛无助却又必须坚持且笑容满面。有人说我越来越冷漠，我却不以为然，我只是学会了孤独。我开始在孤独中一厢情愿的去描绘我五彩斑斓的未来，像个孩子绘画般虽然只是梦。我可以坐在电脑旁一小时之内看着某个角落发呆，直到雪花大团大团的盖下来堆满整个屏幕，白色如同一场华丽的葬礼，排山倒海铺天盖地。
+       我并不是一个寂寞的人，我有很多朋友，但我很少和他们联系，以至于让朋友们忘记了我。我想我真是一个应该被忘记的人。而我却依然执着着记忆，我用刻刀一一记录下他们的名字最后深入骨髓。有人说越痛就越不容易忘记。
+       我总是想起以前的朋友，想起小明、二狗、无娃以及飞吻。
+       想起那些逃课无法无天张扬到放肆的日子。我们沿着环城路静静的走，安静的抽烟，抽很多的烟。我们都很累，为了自己的大学孤注一掷，像过独木桥，而桥上却布满荆棘，无论过去还是过不去都注定伤痕累累……
+       想起那段视台球如生命的日子。大叠大叠的试卷写到手酸依然堆积如山，令人快要窒息。我们不得不寻找枯燥乏味之外的一丝欣慰，于是我们开始玩台球，近乎疯狂以至迷恋的玩。就如同受伤的孩子总是哭着叫妈妈以寻求得到慰籍，我们也需要疗伤。
+       想起那些颓废到有点萎靡的日子。我们可以在没有路灯，昏暗到看不见彼此的角落一起喝酒。然后一起开始歇斯底里的吼，直到沙哑，直到再也吼不出来。酒精总是很好的麻醉剂，但当伤口疼痛到麻木时酒精又有何用？我们总是无力的伪装着，等灾难（好比高考）悄无声息的降临时，才知道力不从心……
+       通常能坚持到最后还游刃有余的人就应该是圣人。显然我不是。我想我应该是那种想坚持却半途逃跑的庸人，准确一点应叫懦夫，而且是个很彻底的懦夫。高考前不知道多少天我离开了，离开了我的朋友们，离开了小明、二狗、无娃以及飞吻。虽然是因为某些不想提及的原因。很难想象当时我是怀着怎样的心情离开的，是疲惫后的解脱，是解脱后的高兴，是高兴之余的不忍，还是不忍离开我的那些朋友们！或许全都是……
+       亲爱的朋友们，我依然执着的眷恋着你们，我好想回到丢失你们的那个夏天，然后一起笑言，一起记忆，一起匍匐前行。
+
+       2.有些事，过了……就不再回来
+
+       我是一个善于忘记的人，对有些事却刻骨铭心。
+       所以我所记得的都很难忘记，因为刻骨铭心，而大部分都是刻骨铭心的痛。
+       现在我住在南方一个多雨的城市，其实我并不喜欢这里，然而为了生活又不得不留下，幸运的是我上班的地方有很多的树，很多大榕树。我喜欢那种枝繁叶茂有树荫的感觉，大团大团的深色好像我内心寂寞的回忆，挥之不去却又清澈如同眼眸。
+       看到那些绿到耀眼的榕树，便有一种如同生命洗礼般纯粹的美丽感觉，好似一场盛大的重生。那些爱，那些恨，那些坚持和疲惫，那些刻骨铭心的灼热年华……所有都在记忆里重生。
+       我总喜欢隔着玻璃看窗外，看飞鸟飞快地掠过刹那间消失，然后开始感叹流年似水，感叹在指尖灰飞烟灭的那些年华，最后陷入无边的记忆。很难想象那些冷若冰的日子我是怎样坚持过来的，没有信仰，没有感伤，没有流星划过苍穹，没有泪水流过脸庞，所有一切都像陷入绝境，寂寞无助又落魄的像个被人丢掉的死人，连疼痛都没有。
+       我真的好想不闻不问不看不想，所以我拼命的做事使自己处于永无休止的忙碌中，直到精疲力尽，直到大脑里全部都是累过后的麻痹。有人说带上耳机全世界都与我无关。我试过那不过是掩耳盗铃自欺欺人罢了，而那种自欺欺人的高境界这辈子我注定做不到。
+       记忆是一位伟大的雕刻家，我就是她手中经过千雕万啄的艺术品，那些如风却难以割舍的记忆像一丝丝刻痕烙印般无法抹却，而那些在指尖跳动的青春就在记忆中飞快的湮灭，还来不及停歇且感伤。</string>
 </resources>

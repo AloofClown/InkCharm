@@ -20,4 +20,12 @@
     <dimen name="Activity_Login_Style_EditText_Corners_Radius">16dp</dimen>
     <dimen name="Activity_Login_Style_LinearLayout_Corners_Radius">8dp</dimen>
     <dimen name="Activity_Login_Style_LinearLayout_Black_Corners_Radius">16dp</dimen>
+    <!--DropDownListView-->
+    <dimen name="drop_down_list_header_padding_top">12dp</dimen>
+    <dimen name="drop_down_list_header_padding_bottom">15dp</dimen>
+    <dimen name="drop_down_list_header_release_min_distance">20dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_footer_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_footer_button_margin_left">8dp</dimen>
+    <dimen name="drop_down_list_footer_button_height">48dp</dimen>
 </resources>
